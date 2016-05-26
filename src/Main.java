@@ -20,6 +20,7 @@ public class Main {
 			// by the connection manager. 
 			try {
 			    System.out.println(response1.getStatusLine());
+			    
 			    HttpEntity entity1 = response1.getEntity();
 			    // do something useful with the response body
 			    // and ensure it is fully consumed
