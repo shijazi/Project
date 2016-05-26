@@ -7,6 +7,8 @@ import org.apache.http.util.EntityUtils;
 
 public class Main {
 	public static void main(String[] args) {
+		TestObject t = new TestObject();
+		System.out.println(t.name);
 		try {
 			CloseableHttpClient httpclient = HttpClients.createDefault();
 			HttpGet httpGet = new HttpGet("http://amazon.com");
